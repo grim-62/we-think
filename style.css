@@ -173,7 +173,7 @@ html,body{
     width: 18%;
 }
 #pg4{
-    min-height: 250vh;
+    min-height: 350vh;
     width: 100vw;
     background-color: #151414;
     position: relative;
@@ -200,6 +200,7 @@ html,body{
 
 }
 #pg4 #gol{
+    margin-top: -15vw;
     rotate: 50deg;
     animation-name: rotate;
     animation-duration: 10s;
@@ -246,39 +247,31 @@ html,body{
     justify-content: flex-end;
 }
 #pg4-cell2{
+    margin-top: -10vw;
+    overflow: hidden;
     background-color: antiquewhite;
     height: 43vh;
     width: 30vw;
     margin-top: 5vw;
-    transition: all ease-in-out 500ms;
-       
+    transition: all ease-in-out 500ms;    
+}
+#pg4-cell2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 500ms ;
 }
 #pg4-cell2:hover {
     height: 40vh;
     width:28vw;
 }
-#pg4-cell2:hover video{
+#pg4-cell2:hover img{
     scale: 1.1;
-    transition: all ease-in-out 500ms ;
 }
-#pg4-wrap2{
-    padding: 5vw;
-    display: flex;
-    justify-content: flex-start;
-}
+
 #pg4-cell3{
+    margin: 5vw;
+    height: 40vh;
+    width: 35vw;
     background-color: antiquewhite;
-    height: 65vh;
-    width: 50vw;
-    transition: all ease-in-out 500ms;
 }
-#pg4-cell3:hover {
-    height: 63vh;
-    width:48vw;
-}
-#pg4-cell3:hover video{
-    scale: 1.1;
-    transition: all ease-in-out 500ms ;
-}
-
-

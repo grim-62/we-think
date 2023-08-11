@@ -144,5 +144,3 @@ var cell = document.querySelectorAll(".cell")
 cell.addEventListener("mouseenter",function(){
     crc.style.scale = 1
 })
-
-
