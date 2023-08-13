@@ -210,6 +210,7 @@ html,body{
     left: -50%;
     position: relative;
 }
+
 #pg4-cell1{
     overflow: hidden;
     padding-top: 0.1px;
@@ -219,6 +220,13 @@ html,body{
     width:45vw;
     transition: all ease 500ms;
     background-color: antiquewhite;
+}
+#pg4-cell1::before{
+    content: "";
+    height: 10vw;
+    width: 80vw;
+    background-color: aqua;
+    color: #fff;
 }
 #pg4-cell1 video{
     height: 100%;
@@ -236,13 +244,15 @@ html,body{
     padding: 5vw;
     display: flex;
     justify-content: flex-end;
+    margin-top: -10vw;
+
 }
 #pg4-cell2{
-    margin-top: -10vw;
+    margin-top: -150px;
     overflow: hidden;
-    background-color: antiquewhite;
+    background-color: #E7CFB1;
     height: 43vh;
-    width: 30vw;
+    width: 35vw;
     margin-top: 5vw;
     transition: all ease-in-out 500ms;    
 }
@@ -250,19 +260,104 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    transition: all ease-in-out 500ms ;
+    transition: all ease-in-out 300ms ;
 }
 #pg4-cell2:hover {
-    height: 41vh;
-    width:28vw;
+    height: 42vh;
+    width: 34vw;
 }
 #pg4-cell2:hover img{
     scale: 1.1;
 }
 
+#pg4-wrap2{
+    height: 60vw;
+    background-color: #E7CFB1;
+    margin-top: -10vw;
+}
 #pg4-cell3{
-    margin: 5vw;
+    margin: -150px;
+    margin-left: 3vw;
+    height: 50vh;
+    width: 40vw;
+}
+#pg4-cell3 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.cell img{
+    width: 100%;
+}
+#p4-wrap3{
+    padding-right: 3vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pg4-cell4{
     height: 40vh;
-    width: 35vw;
-    background-color: antiquewhite;
+    width: 40vw;
+}
+#p4-wrap4{
+    display: flex;
+    justify-content: center;
+}
+#pg4-cell5{
+    margin-top: 40vh;
+    height: 50vh;
+    width: 45vw;
+}
+
+
+
+#pg5{
+    position: relative;
+    align-items: center;
+    height: 120vh;
+    width: auto;
+    background-color: #9AC1CB;
+}
+#pg5-main{
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+    height: 100vh;
+    width: 250vw;
+   background-color: #9AC1CB;
+}
+#pg5-main h1{
+    padding: 5vw;
+    font-size: 75vh;
+    font-family: hell-2;
+    font-weight: 500;
+}
+#pg5-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width: 100vw;
+    background-color: #9AC1CB;
+}
+#pg5-footer #box h5{
+    font-family: hell-2;
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-bottom: .5vw;
+
+}
+#pg5-footer #box p{
+    font-weight: 400;
+    color: #54666A;
+    font-family: hell-1;
+    font-size: 1.2vw;
+}
+#pg6{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+#img1-p5{
+    position: relative;
 }

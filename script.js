@@ -127,20 +127,16 @@ gsap.from("#txt-container h6",{
   }
 })
 
-
-function mouse(){
-  var crc = document.querySelector("#cat") 
-var main = document.querySelector("#pg4")
-main.addEventListener("mousemove",function(mop){
-  console.log(mop)
-  crc.style.transform = translate()
- 
+tl.to("#pg5-main ",{
+  x:"-60%",
+  scrollTrigger:{
+    trigger:"#pg5",
+    scroller:"#main",
+    markers:true,
+    start:"top 0%",
+    end:"top -50%",
+    scrub:1,
+    pin:true
+  }
 })
-}
-mouse();
 
-var crc = document.querySelector("#cat") 
-var cell = document.querySelectorAll(".cell")
-cell.addEventListener("mouseenter",function(){
-    crc.style.scale = 1
-})
