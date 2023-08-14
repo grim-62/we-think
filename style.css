@@ -315,6 +315,7 @@ html,body{
 #pg4-end{
     border-radius: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 13vh;
@@ -324,7 +325,9 @@ html,body{
     color: #fff;
 }
 #pg4-end p{
+    font-family: hell-1;
     font-size: 1.5rem;
+    color: #E2CAAD;
 }
 
 #pg5{
@@ -373,14 +376,51 @@ html,body{
     margin-top: 2cm;
     position: relative;
     padding: 5vw;
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
-    background-color: #888;
-    display: grid;
-    white-space: nowrap;
+}
+#p6-wrap{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 #pg6 img{
+    margin-top: 20px;
     padding: 20px;
-
-    height: 100px;
+    height: 120px;
+    width: 300px;
+}
+#pg7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vw;
+    height: 90vh;
+    width: 100vw;
+    background-color: #E2CAAD;
+}
+#p7-wrap{
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+#p7-wrap h1{
+    font-size: 7vh;
+    font-family: hell-1;
+}
+#p7-video{
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+#p7-video img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+#pg8{
+    height: 30vh;
+    width: 100vw;
 }

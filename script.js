@@ -132,7 +132,7 @@ tl.to("#pg5-main ",{
   scrollTrigger:{
     trigger:"#pg5",
     scroller:"#main",
-    markers:true,
+    // markers:true,
     start:"top 0%",
     end:"top -50%",
     scrub:1,
