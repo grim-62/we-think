@@ -308,8 +308,24 @@ html,body{
     height: 50vh;
     width: 45vw;
 }
-
-
+#pg4-wrap5{
+    display: flex;
+    justify-content: center;
+}
+#pg4-end{
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    border: 2px solid #E2CAAD;
+    width: 20vw;
+    margin-top: 430px;
+    color: #fff;
+}
+#pg4-end p{
+    font-size: 1.5rem;
+}
 
 #pg5{
     position: relative;
@@ -354,10 +370,17 @@ html,body{
     font-size: 1.2vw;
 }
 #pg6{
+    margin-top: 2cm;
+    position: relative;
+    padding: 5vw;
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color: #888;
+    display: grid;
+    white-space: nowrap;
 }
-#img1-p5{
-    position: relative;
+#pg6 img{
+    padding: 20px;
+
+    height: 100px;
 }
